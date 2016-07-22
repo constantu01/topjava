@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Created by комп on 12.07.2016.
  */
-public class InMemoryUserMealRepositoryiImpl implements UserMealRepository {
+public class InMemoryUserMealRepositoryImpl implements UserMealRepository {
     private Map<Integer,UserMeal> repository=new ConcurrentHashMap<>();
     private AtomicInteger counter=new AtomicInteger(0);
 
